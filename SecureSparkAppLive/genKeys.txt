@@ -6,3 +6,5 @@ keytool -export -keystore ./ecikeystore.p12 -alias ecikeypair -file ecicert.cer
 
 #crear keystore importando el certificado
 keytool -import -file ./ecicert.cer -alias firstCA -keystore myTrustStore
+
+ec2-54-209-158-92.compute-1.amazonaws.com
