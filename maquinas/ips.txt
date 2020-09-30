@@ -1,2 +1,0 @@
-52.91.92.161
-ec2-52-91-92-161.compute-1.amazonaws.com
