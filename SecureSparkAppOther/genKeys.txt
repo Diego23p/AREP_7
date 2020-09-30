@@ -1,0 +1,8 @@
+# Generar par
+keytool -genkeypair -alias ecikeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore ecikeystore.p12 -validity 3650
+
+#generar llave pública
+keytool -export -keystore ./ecikeystore.p12 -alias ecikeypair -file ecicert.cer
+
+#crear keystore importando el certificado
+keytool -import -file ./ecicert.cer -alias firstCA -keystore myTrustStore
