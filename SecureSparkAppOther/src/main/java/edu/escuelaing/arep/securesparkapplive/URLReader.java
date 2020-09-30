@@ -50,7 +50,7 @@ public class URLReader {
             sslContext.init(null, tmf.getTrustManagers(), null);
             SSLContext.setDefault(sslContext);
 
-            readURL("https://localhost:5000/login");
+            readURL("https://ec2-52-91-92-161.compute-1.amazonaws.com:5000/login");
             
         } catch (KeyStoreException | NoSuchAlgorithmException | IOException | CertificateException | KeyManagementException ex) {
             Logger.getLogger(URLReader.class.getName()).log(Level.SEVERE, null, ex);
