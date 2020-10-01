@@ -41,20 +41,6 @@ Se usará el sistema de control de versiones Git, desde la linea de comandos com
 git version 2.21.0.windows.1
 ```
 
-#### Docker
-
-Necesario para crear y ejecutar la imagenes de las aplicaciones desarrolladas:
-
-```
-> docker --version
-
-Docker version 19.03.12, build 48a66213fe
-```
-
-Las imagenes generadas están almacenadas en ```diego23p/roundrobin``` y ```diego23p/logservice```
-
-![](/img/3.jpg)
-
 ## Instalación
 
 Para descargar localmente el repositorio se utiliza el comando como sigue:
@@ -67,17 +53,7 @@ Para compilar el proyecto usando Maven dentro de cada carpeta:
 > mvn package
 ```
 
-Para crear la imagen con Docker dentro de cada carpeta:
-```
-> docker build --tag <nombre> .
-```
-
-## Generar imagenes y ejecutar el Programa
-
-Para ejecutar el programa usando Docker y las imagenes puestas en el repositorio de Docker Hub:
-
-
-
+[Video demostrativo AWS](https://drive.google.com/file/d/1g1GQ5bujvkVyyQgn6NvNrIvhHIAplVHN/view?usp=sharing)
 
 # Autores
 
