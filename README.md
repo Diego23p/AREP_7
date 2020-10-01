@@ -57,7 +57,7 @@ Para compilar el proyecto usando Maven dentro de cada carpeta:
 
 Para ver más información sobre la arquitectura de la solución:
 
-[disenoLab5.pdf](disenoLab7.pdf)
+[Diseño Lab7](disenoLab7.pdf)
 
 # Video
 
