@@ -53,6 +53,14 @@ Para compilar el proyecto usando Maven dentro de cada carpeta:
 > mvn package
 ```
 
+# Descripción del Diseño
+
+Para ver más información sobre la arquitectura de la solución:
+
+[disenoLab5.pdf](disenoLab7.pdf)
+
+# Video
+
 [Video demostrativo AWS](https://drive.google.com/file/d/1g1GQ5bujvkVyyQgn6NvNrIvhHIAplVHN/view?usp=sharing)
 
 # Autores
